@@ -1,0 +1,21 @@
+:root {
+    --bg: #fafafa;
+    --font: Arial, Helvetica, sans-serif;
+    --font-display: "Arial";
+    --hotpink: #00adb5;
+    --orange: #f08a5d;
+    --gradient: linear-gradient(35deg, var(--orange), var(--hotpink));
+    --card-transition: all 0.3s ease;
+}
+
+body {
+    margin: auto;
+    min-height: 100vh;
+    background: var(--bg);
+    font-family: var(--font);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
